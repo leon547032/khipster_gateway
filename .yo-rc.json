@@ -1,0 +1,58 @@
+{
+  "generator-jhipster-kotlin": {
+    "promptValues": {
+      "packageName": "com.purpleio.gateway"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "com.purpleio.gateway",
+    "packageFolder": "com/purpleio/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjRkNWI4OGYzNzE4OGI4OWIwODE2YjNiZTI5ZWM1ODRkMzQzYzU5MWUyNzY3YjczMmI0ZjFjYzI1MTQ3ZTNlZGM2MGRiOTIwYzk0MmY3YzVjOGRhOTRhODI0YzRmMTk2YzVkZTQ3OTUxYjQ2NjllZGZjMGY3Yjg5ZWM4ODdmNmQ="
+  },
+  "generator-jhipster": {
+    "promptValues": {
+      "nativeLanguage": "ko"
+    },
+    "jhipsterVersion": "6.3.0",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.1.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ko",
+    "languages": ["ko", "en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.1.0"
+      }
+    ]
+  }
+}
